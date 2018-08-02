@@ -1,3 +1,5 @@
 appdaemon.yaml*
 compiled/*
 dashboards/*
+*~
+*DS_Store*
