@@ -1,0 +1,130 @@
+.widget-basetesla-{{id}} {
+  padding-top: 10px;
+  vertical-align: top;
+}
+
+.widget-basetesla-{{id}} h1 {
+  margin-bottom: 16px;
+}
+
+.widget-basetesla-{{id}} .alert .title,
+.widget-basetesla-{{id}} .alert .icon,
+.widget-basetesla-{{id}} .alert .value {
+  color: #fff !important;
+}
+
+.widget-basetesla-{{id}} .title {
+  color: #777;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #111;
+}
+
+.widget-basetesla-{{id}} .aux-icon {
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-top: 8px;
+  font-size: 28px;
+  color: #333;
+}
+
+.widget-basetesla-{{id}} .fa-unlock {
+  color: #E82127 !important;
+}
+
+.widget-basetesla-{{id}} .fa-snowflake-o.on {
+  color: #2389da !important;
+}
+
+.widget-basetesla-{{id}} .aux-icon-left {
+  float: left;
+}
+
+.widget-basetesla-{{id}} .aux-icon-right {
+  float: right;
+}
+
+.widget-basetesla-{{id}} .charge {
+  margin-top: 10px;
+}
+
+.widget-basetesla-{{id}} .charge-value {
+  font-size: 20px;
+}
+
+.widget-basetesla-{{id}} .charge-unit {
+  font-size: 12px;
+  color: #666;
+  margin-left: 4px;
+}
+
+.widget-basetesla-{{id}} .charge-icon-charging {
+  fill: #5BC236;
+}
+
+.widget-basetesla-{{id}} .charge-icon {
+  fill: #666;
+}
+
+.widget-basetesla-{{id}} .charge-icon,
+.widget-basetesla-{{id}} .charge-icon-charging {
+  height: 16px;
+  margin-right: 4px;
+}
+
+.widget-basetesla-{{id}} .divider {
+  height: 1px;
+  background-color: #666;
+  margin: 8px;
+}
+
+.widget-basetesla-{{id}} .value {
+  font-size: 60px;
+  font-weight: bold;
+  display: inline-block;
+  text-shadow: 2px 2px 5px #111;
+}
+
+.widget-basetesla-{{id}} .icon {
+  height: 40px;
+  display: inline-block;
+}
+
+.widget-basetesla-{{id}} .temp {
+  margin-top: 10px;
+}
+
+.widget-basetesla-{{id}} .icon-active path {
+  fill: #E82127 !important;
+}
+
+.widget-basetesla-{{id}} .icon-inactive path {
+  fill: #333 !important;
+}
+
+.widget-basetesla-{{id}} .temp-item {
+  font-size: 20px;
+  float: left;
+  width: 50%;
+  letter-spacing: 0;
+}
+
+.widget-basetesla-{{id}} .temp-value {
+  vertical-align: middle;
+}
+
+.widget-basetesla-{{id}} .temp-unit {
+}
+
+.widget-basetesla-{{id}} .temp-icon {
+  float: left;
+  margin-right: 0px;
+  padding-left: 4px;
+  height: 26px;
+  fill: #666;
+}
+
+/* Icon colors */
+/*.widget-basetesla-{{id}} .mdi-train { color: #4b595e; } 4b595e ff6d6d*/
+/* .widget-basetesla-{{id}} .mdi-train { color: #4b595e; } 
+.widget-basetesla-{{id}} .alert-color{ color: #4b595e; } */

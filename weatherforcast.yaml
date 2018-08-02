@@ -1,0 +1,61 @@
+widget_type: baseweatherforcast
+day_1_icon: ""
+day_1_high_temperature: ""
+day_1_low_temperature: ""
+day_1_name: ""
+
+day_2_icon: ""
+day_2_high_temperature: ""
+day_2_low_temperature: ""
+day_2_name: ""
+
+day_3_icon: ""
+day_3_high_temperature: ""
+day_3_low_temperature: ""
+day_3_name: ""
+
+day_4_icon: ""
+day_4_high_temperature: ""
+day_4_low_temperature: ""
+day_4_name: ""
+
+day_5_icon: ""
+day_5_high_temperature: ""
+day_5_low_temperature: ""
+day_5_name: ""
+fields:
+  title: {{title}} 
+  day_1_icon: ""
+  day_1_high_temperature: ""
+  day_1_low_temperature: ""
+  day_1_name: ""
+
+  day_2_icon: ""
+  day_2_high_temperature: ""
+  day_2_low_temperature: ""
+  day_2_name: ""
+
+  day_3_icon: ""
+  day_3_high_temperature: ""
+  day_3_low_temperature: ""
+  day_3_name: ""
+
+  day_4_icon: ""
+  day_4_high_temperature: ""
+  day_4_low_temperature: ""
+  day_4_name: ""
+
+  day_5_icon: ""
+  day_5_high_temperature: ""
+  day_5_low_temperature: ""
+  day_5_name: ""
+
+css: []
+static_css:
+  title_style: $weather_sub_style
+  unit_style: $weather_unit_style
+  main_style: $weather_main_style
+  sub_style: $weather_sub_style
+  widget_style: $weather_widget_style
+icons: []
+static_icons: []

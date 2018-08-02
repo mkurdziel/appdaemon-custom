@@ -1,0 +1,59 @@
+.widget-baseweatherforcast-{{id}} {
+  padding-top: 0;
+}
+
+
+.widget-baseweatherforcast-{{id}} h1 {
+  margin-bottom: 20px;
+}
+
+.widget-baseweatherforcast-{{id}} .title {
+  color: #777;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.widget-baseweatherforcast-{{id}} .name {
+    color: #888;
+}
+
+.widget-baseweatherforcast-{{id}} .name,
+.widget-baseweatherforcast-{{id}} .icon,
+.widget-baseweatherforcast-{{id}} .high-temperature,
+.widget-baseweatherforcast-{{id}} .low-temperature {
+  margin-bottom: 4px;
+  font-size: 20px;
+}
+
+.widget-baseweatherforcast-{{id}} .high-temperature {
+    color: #ccc;
+}
+
+.widget-baseweatherforcast-{{id}} .low-temperature {
+    color: #c8effb;
+}
+
+.widget-baseweatherforcast-{{id}} .column {
+  float: left;
+  width: 20%;
+}
+
+.widget-baseweatherforcast-{{id}} .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.widget-baseweatherforcast-{{id}} .icon {
+  font-size: 32px;
+}
+
+/* Weather colors */
+.widget-baseweatherforcast-{{id}} .mdi-weather-pouring { color: #4E87AA; }
+.widget-baseweatherforcast-{{id}} .mdi-weather-snowy { color: #e0f2f2; }
+.widget-baseweatherforcast-{{id}} .mdi-weather-snowy-rainy { color: #e0f2f2; }
+.widget-baseweatherforcast-{{id}} .mdi-weather-windy { color: #ffe963; }
+.widget-baseweatherforcast-{{id}} .mdi-weather-fog { color: #4b595e; }
+.widget-baseweatherforcast-{{id}} .mdi-weather-cloudy { color: #97A6AC; }
+.widget-baseweatherforcast-{{id}} .mdi-weather-sunny { color: #ff6d6d; }
+.widget-baseweatherforcast-{{id}} .mdi-weather-night { color: #3a3d72; }
+.widget-baseweatherforcast-{{id}} .mdi-weather-partlycloudy { color: #d8842f; }

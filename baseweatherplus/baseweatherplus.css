@@ -1,0 +1,96 @@
+.widget-baseweatherplus-{{id}} h1 {
+  margin-bottom: 12px;
+}
+
+.widget-baseweatherplus-{{id}} .title {
+  color: #777;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.widget-baseweatherplus-{{id}} #today-icon,
+.widget-baseweatherplus-{{id}} .today-temperature,
+.widget-baseweatherplus-{{id}} .today-temperature-unit {
+  vertical-align: top;
+  padding-right: 10px;
+}
+
+.widget-baseweatherplus-{{id}} #today-icon {
+  font-size: 64px;
+}
+
+.widget-baseweatherplus-{{id}} #icon-thermometer {
+  color: #ff6d6d;
+}
+
+.widget-baseweatherplus-{{id}} #icon-umbrella {
+  color: #bdf7ff;
+}
+
+.widget-baseweatherplus-{{id}} #icon-humidity {
+  color: #8ad0ce;
+}
+
+.widget-baseweatherplus-{{id}} #icon-wind {
+  color: #ffe963;
+}
+
+.widget-baseweatherplus-{{id}} .temperature-row {
+  margin-bottom: 10px;
+}
+.widget-baseweatherplus-{{id}} .today-temperature {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.widget-baseweatherplus-{{id}} .unit {
+  color: #555;
+}
+
+.widget-baseweatherplus-{{id}} .today-temperature-unit {
+  line-height: 34px;
+  font-size: 28px;
+}
+
+.widget-baseweatherplus-{{id}} .today-high-low-wrapper {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+}
+
+.widget-baseweatherplus-{{id}} .today-misc {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+}
+
+.widget-baseweatherplus-{{id}} .today-misc i{
+  margin-left: 18px;
+  margin-right: 0px;
+}
+
+.widget-baseweatherplus-{{id}} .today-icon,
+.widget-baseweatherplus-{{id}} .today-high-temperature,
+.widget-baseweatherplus-{{id}} .today-low-temperature,
+.widget-baseweatherplus-{{id}} .today-precip-probability {
+  display: inline;
+}
+
+.widget-baseweatherplus-{{id}} .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.widget-baseweatherplus-{{id}} .icon {
+  width: 42px;
+}
+
+.widget-baseweatherplus-{{id}} .today-high-low-wrapper {
+  display: inline-block;
+  padding-left: 18px;
+}
+.widget-baseweatherplus-{{id}} .today-high {
+  padding-bottom: 4px;
+  border-bottom: 1px solid #666;
+}
+.widget-baseweatherplus-{{id}} .today-low {
+  padding-top: 4px;
+}

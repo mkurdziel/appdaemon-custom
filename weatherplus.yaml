@@ -1,0 +1,32 @@
+widget_type: baseweatherplus
+
+today_icon: ""
+today_temperature: ""
+today_high_temperature: ""
+today_low_temperature: ""
+today_precip_probability: ""
+today_humidity: ""
+today_wind_speed: ""
+
+fields:
+  title: {{title}} 
+
+  today_icon: ""
+  today_temperature: ""
+  today_temperature_unit: ""
+  today_high_temperature: ""
+  today_low_temperature: ""
+  today_precip_probability: ""
+  today_humidity: ""
+  today_wind_speed: ""
+
+css: []
+static_css:
+  title_style: $weather_sub_style
+  unit_style: $weather_unit_style
+  main_style: "color: #fff;"
+  sub_style: $weather_sub_style
+  widget_style: $weather_widget_style
+  widget_class: ""
+icons: []
+static_icons: []

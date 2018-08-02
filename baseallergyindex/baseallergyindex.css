@@ -1,0 +1,41 @@
+.widget-baseallergyindex-{{id}} {
+  padding-top: 10px;
+  vertical-align: top;
+}
+
+.widget-baseallergyindex-{{id}} h1 {
+  margin-bottom: 20px;
+}
+
+.widget-baseallergyindex-{{id}} .alert .title,
+.widget-baseallergyindex-{{id}} .alert .icon,
+.widget-baseallergyindex-{{id}} .alert .value {
+  color: #fff !important;
+}
+
+.widget-baseallergyindex-{{id}} .title {
+  color: #777;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  text-shadow: 2px 2px 5px #111;
+}
+
+.widget-baseallergyindex-{{id}} .value {
+  font-size: 60px;
+  font-weight: bold;
+  display: inline-block;
+  text-shadow: 2px 2px 5px #111;
+}
+
+.widget-baseallergyindex-{{id}} .icon {
+  font-size: 40px;
+  padding-right: 8px;
+  display: inline-block;
+  color: #777;
+}
+
+/* Icon colors */
+/*.widget-baseallergyindex-{{id}} .mdi-train { color: #4b595e; } 4b595e ff6d6d*/
+/* .widget-baseallergyindex-{{id}} .mdi-train { color: #4b595e; } 
+.widget-baseallergyindex-{{id}} .alert-color{ color: #4b595e; } */

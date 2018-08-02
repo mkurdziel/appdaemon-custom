@@ -1,0 +1,27 @@
+.widget-basehousemode-{{id}} {
+  padding-top: 0;
+}
+
+
+.widget-basehousemode-{{id}} h1 {
+  margin-bottom: 20px;
+}
+
+.widget-basehousemode-{{id}} .title {
+  color: #777;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.widget-basehousemode-{{id}} .icon {
+  font-size: 85px;
+}
+
+.widget-basehousemode-{{id}} .name {
+  font-size: 20px;
+  color: #777;
+}
+
+/* Icon colors */
+.widget-basehousemode-{{id}} .mdi-train { color: #4b595e; }
+.widget-basehousemode-{{id}} .alert-color{ color: #ff6d6d; }

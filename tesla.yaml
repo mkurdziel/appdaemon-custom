@@ -1,0 +1,37 @@
+widget_type: basetesla
+
+charger_sensor: ""
+parking_brake_sensor: ""
+climate: ""
+door_lock: ""
+battery_sensor: ""
+range_sensor: ""
+temp_inside: ""
+temp_outside: ""
+
+fields:
+  title: {{title}} 
+  icon_class: ""
+  lock_icon: ""
+  climate_icon: ""
+  charge_style: "charge-icon"
+  charger_sensor: ""
+  parking_brake_sensor: ""
+  climate: ""
+  door_lock: ""
+  battery_sensor: ""
+  battery_icon_width: 10 
+  range_sensor: ""
+  temp_inside: ""
+  temp_outside: ""
+
+css: []
+icons: []
+static_css:
+  title_style: "color: #777;"
+  main_style: $label_text_style
+  sub_style: "color: #777;"
+  value_style: "color: #777;"
+  widget_style: $label_widget_style
+  widget_class: ""
+static_icons: []

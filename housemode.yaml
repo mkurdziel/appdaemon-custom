@@ -1,0 +1,17 @@
+widget_type: basehousemode
+
+fields:
+  title: {{title}} 
+
+  housemode_icon: ""
+  housemode_name: ""
+
+css: []
+icons: []
+static_css:
+  title_style: $weather_sub_style
+  unit_style: $weather_unit_style
+  main_style: "color: #fff;"
+  sub_style: $weather_sub_style
+  widget_style: $weather_widget_style
+static_icons: []

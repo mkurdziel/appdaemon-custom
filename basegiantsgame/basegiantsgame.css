@@ -1,0 +1,32 @@
+.widget-basegiantsgame-{{id}} {
+  padding-top: 0;
+}
+
+
+.widget-basegiantsgame-{{id}} h1 {
+  margin-bottom: 20px;
+}
+
+.widget-basegiantsgame-{{id}} .game .title,
+.widget-basegiantsgame-{{id}} .game .time {
+  color: #fff !important;
+}
+
+.widget-basegiantsgame-{{id}} .title {
+  color: #777;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.widget-basegiantsgame-{{id}} .icon {
+  font-size: 85px;
+}
+
+.widget-basegiantsgame-{{id}} .time {
+  color: #777;
+}
+
+/* Icon colors */
+/*.widget-basegiantsgame-{{id}} .mdi-train { color: #4b595e; } 4b595e ff6d6d*/
+/* .widget-basegiantsgame-{{id}} .mdi-train { color: #4b595e; } 
+.widget-basegiantsgame-{{id}} .alert-color{ color: #4b595e; } */

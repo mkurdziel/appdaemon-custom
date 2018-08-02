@@ -1,0 +1,33 @@
+<div data-bind="attr: {style: main_style}, attr: {class: widget_class}">
+  <div class="row">
+    <h1 class="title" data-bind="text: title"></h1>
+  </div>
+  <div class="row temperature-row">
+      <i id="today-icon" data-bind="attr: {class: today_icon}" aria-hidden="true"></i>
+      <!--<img data-bind="attr: {src: today_icon}" class="today-icon icon"/>-->
+      <span class="today-temperature" data-bind="text: today_temperature"></span>
+      <span class="today-temperature-unit unit" data-bind="text: today_temperature_unit"></span>
+      <div class="today-high-low-wrapper">
+        <div class="today-high">
+          <span class="today-high-temperature" data-bind="text: today_high_temperature"></span>
+        </div>
+        <div class="today-low">
+          <span class="today-low-temperature" data-bind="text: today_low_temperature"></span>
+        </div>
+      </div>
+  </div>
+
+  <div class="row today-misc">
+      <i class="mdi mdi-water-percent" id="icon-humidity"></i>
+      <span class="today-humidity" data-bind="text: today_humidity"></span>
+      <span class="unit">%</span>
+
+      <i class="mdi mdi-weather-windy" id="icon-wind"></i>
+      <span class="today-wind-speed" data-bind="text: today_wind_speed"></span>
+      <span class="unit">mph</span>
+
+      <i class="fa fa-umbrella" id="icon-umbrella" aria-hidden="true"></i>
+      <span class="today-precip-probability" data-bind="text: today_precip_probability"></span>
+      <span class="unit">%</span>
+  </div>
+</div>

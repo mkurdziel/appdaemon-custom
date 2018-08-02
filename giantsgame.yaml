@@ -1,0 +1,17 @@
+widget_type: basegiantsgame
+
+fields:
+  title: {{title}} 
+
+  game_icon: ""
+  game_time: ""
+
+css: []
+icons: []
+static_css:
+  title_style: "color: #777;"
+  main_style: $label_text_style
+  sub_style: "color: #777;"
+  widget_style: $label_widget_style
+  widget_class: ""
+static_icons: []
