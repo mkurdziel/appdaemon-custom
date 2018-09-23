@@ -115,7 +115,7 @@ function baseiconsensor(widget_id, url, skin, parameters)
     
     function set_view(self, state, level)
     {
-        if (state)
+        if (state && state != self.parameters.state_value_inactive)
         {
             self.set_icon(self, "icon", self.icons.icon_on);
             self.set_field(self, "icon_style", self.css.icon_style_active)

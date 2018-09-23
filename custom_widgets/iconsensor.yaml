@@ -9,6 +9,7 @@ fields:
   icon_style: ""
   state_text: ""
   state_text_inactive: ""
+  state_value_inactive: ""
 icons:
   icon_on: $binary_sensor_icon_on
   icon_off: $binary_sensor_icon_off
