@@ -1,0 +1,28 @@
+widget_type: baseuvindex
+
+current_uv_index: ""
+max_uv_index: ""
+protection_window: ""
+safe_exposure_time: ""
+
+fields:
+  title: {{title}} 
+  icon_class: ""
+  lock_icon: ""
+  current_uv_index: ""
+  max_uv_index: ""
+  protection_window: ""
+  safe_exposure_time: ""
+  current_uv_style: ""
+  max_uv_style: ""
+
+css: []
+icons: []
+static_css:
+  title_style: "color: #777;"
+  main_style: $label_text_style
+  sub_style: "color: #777;"
+  value_style: "color: #777;"
+  widget_style: $label_widget_style
+  widget_class: ""
+static_icons: []

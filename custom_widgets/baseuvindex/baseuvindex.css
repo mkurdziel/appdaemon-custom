@@ -1,0 +1,124 @@
+.widget-baseuvindex-{{id}} {
+  padding-top: 10px;
+  vertical-align: top;
+}
+
+.widget-baseuvindex-{{id}} h1 {
+  margin-bottom: 16px;
+}
+
+.widget-baseuvindex-{{id}} .alert .title,
+.widget-baseuvindex-{{id}} .alert .icon,
+.widget-baseuvindex-{{id}} .alert .value {
+  color: #fff !important;
+}
+
+.widget-baseuvindex-{{id}} .title {
+  color: #777;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #111;
+}
+
+.widget-baseuvindex-{{id}} .aux-icon {
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-top: 8px;
+  font-size: 28px;
+  color: #333;
+}
+
+.widget-baseuvindex-{{id}} .fa-unlock {
+  color: #E82127 !important;
+}
+
+.widget-baseuvindex-{{id}} .fa-snowflake-o.on {
+  color: #2389da !important;
+}
+
+.widget-baseuvindex-{{id}} .aux-icon-left {
+  float: left;
+}
+
+.widget-baseuvindex-{{id}} .aux-icon-right {
+  float: right;
+}
+
+.widget-baseuvindex-{{id}} .exposure {
+  margin-top: 10px;
+}
+
+.widget-baseuvindex-{{id}} .exposure-value {
+  margin-left: 2px;
+  font-size: 20px;
+}
+
+.widget-baseuvindex-{{id}} .exposure-unit {
+  font-size: 12px;
+  color: #666;
+  margin-left: 2px;
+}
+
+.widget-baseuvindex-{{id}} .divider {
+  height: 1px;
+  background-color: #666;
+  margin: 8px;
+}
+
+.widget-baseuvindex-{{id}} .value {
+  font-size: 60px;
+  font-weight: bold;
+  display: inline-block;
+  text-shadow: 2px 2px 5px #111;
+}
+
+.widget-baseuvindex-{{id}} .icon {
+  height: 40px;
+  display: inline-block;
+}
+
+.widget-baseuvindex-{{id}} .temp {
+  margin-top: 10px;
+}
+
+.widget-baseuvindex-{{id}} .icon-active path {
+  fill: #E82127 !important;
+}
+
+.widget-baseuvindex-{{id}} .icon-inactive path {
+  fill: #333 !important;
+}
+
+.widget-baseuvindex-{{id}} .temp-item {
+  font-size: 20px;
+  float: left;
+  width: 50%;
+  letter-spacing: 0;
+}
+
+.widget-baseuvindex-{{id}} .temp-title {
+  font-size: 12px;
+  font-weight: bold;
+  color: #777;
+}
+
+.widget-baseuvindex-{{id}} .temp-value {
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.widget-baseuvindex-{{id}} .temp-unit {
+}
+
+.widget-baseuvindex-{{id}} .temp-icon {
+  float: left;
+  margin-right: 0px;
+  padding-left: 4px;
+  height: 26px;
+  fill: #666;
+}
+
+/* Icon colors */
+/*.widget-baseuvindex-{{id}} .mdi-train { color: #4b595e; } 4b595e ff6d6d*/
+/* .widget-baseuvindex-{{id}} .mdi-train { color: #4b595e; } 
+.widget-baseuvindex-{{id}} .alert-color{ color: #4b595e; } */

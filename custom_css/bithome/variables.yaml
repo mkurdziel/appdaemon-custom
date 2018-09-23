@@ -28,7 +28,7 @@
 #
 
 head_includes:
- - <! head tags go here ->
+ - <script src="custom_css/bithome/bithome.js"></script>
 
 #
 # Custom body includes - should be a YAML List, e.g.:

@@ -65,7 +65,7 @@ function basetesla(widget_id, url, skin, parameters)
 
     function OnClimateClick(self)
     {
-      let args = {
+      var args = {
         'service': 'climate/set_operation_mode',
         'entity_id': self.parameters.climate,
       };
