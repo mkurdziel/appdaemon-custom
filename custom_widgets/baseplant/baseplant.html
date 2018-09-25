@@ -1,0 +1,40 @@
+<div data-bind="attr: {class: widget_class}">
+  <h1 class="title" data-bind="text: title, attr: {style: title_style}"></h1>
+  <div data-bind="attr: {style: main_style}">
+    <div class="aux-icon aux-icon-left moisture" id="climateButton">
+      <i class="mdi mdi-water" aria-hidden="true"></i>
+      <div class="aux-value">
+        <span class="aux-value-text" data-bind="text: moisture"></span>
+        <span class="aux-value-unit unit" data-bind="text: moisture_unit"></span>
+      </div>
+    </div>
+    <div class="aux-icon aux-icon-right brightness">
+      <i class="mdi mdi-weather-sunny" aria-hidden="true"></i>
+      <div class="aux-value">
+        <span class="aux-value-text" data-bind="text: brightness"></span>
+        <span class="aux-value-unit unit" data-bind="text: brightness_unit"></span>
+      </div>
+    </div>
+    <div class="icon">
+      <i class="mdi mdi-flower" aria-hidden="true"></i>
+    </div>
+    <div class="top-line conductivity">
+      <i class="fa fa-bolt" aria-hidden="true"></i>
+      <span class="top-line-value-text" data-bind="text: conductivity"></span>
+      <span class="top-line-value-unit unit" data-bind="text: conductivity_unit"></span>
+    </div>
+    <div class="divider">&nbsp;</div>
+    <div class="bottom-line">
+      <div class="bottom-line-left battery">
+        <i class="fa fa-battery" aria-hidden="true"></i>
+        <span class="top-line-value-text" data-bind="text: battery"></span>
+        <span class="top-line-value-unit unit" data-bind="text: battery_unit"></span>
+      </div>
+      <div class="bottom-line-right temperature">
+        <i class="fa fa-thermometer-half" aria-hidden="true"></i>
+        <span class="top-line-value-text" data-bind="text: temperature"></span>
+        <span class="top-line-value-unit unit" data-bind="text: temperature_unit"></span>
+      </div>
+    </div>
+  </div>
+</div>
