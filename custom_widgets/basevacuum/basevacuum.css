@@ -1,0 +1,127 @@
+.widget-basevacuum-{{id}} {
+  padding-top: 10px;
+  vertical-align: top;
+	position: relative;
+}
+
+.widget-basevacuum-{{id}} h1 {
+  margin-bottom: 16px;
+}
+
+.widget-basevacuum-{{id}} .alert .title,
+.widget-basevacuum-{{id}} .alert .icon,
+.widget-basevacuum-{{id}} .alert .value {
+  color: #fff !important;
+}
+
+.widget-basevacuum-{{id}} .title {
+  color: #777;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #111;
+}
+
+.widget-basevacuum-{{id}} .aux-icon i {
+  font-size: 28px;
+}
+
+.widget-basevacuum-{{id}} .aux-value {
+  word-spacing: -4px;
+}
+.widget-basevacuum-{{id}} .aux-value-text {
+  font-size: 16px;
+}
+
+.widget-basevacuum-{{id}} .aux-value-unit {
+  font-size: 8px;
+}
+
+.widget-basevacuum-{{id}} .aux-icon {
+  font-size: 28px;
+  line-height: 20px;
+	position: absolute;
+	top: 65px;
+  width: 100%;
+}
+
+.widget-basevacuum-{{id}} .icon {
+	position: absolute;
+	top: 40px;
+	width: 100%;
+  font-size: 70px;
+  text-align: center;
+  color: #777;
+  opacity: 0.75;
+}
+
+.widget-basevacuum-{{id}} .icon-on {
+  color: #5BC236;
+}
+
+.widget-basevacuum-{{id}} .aux-icon-left {
+  text-align: left;
+  left: 12px;
+}
+
+.widget-basevacuum-{{id}} .aux-icon-left .aux-value {
+  padding-left: 8px;
+}
+
+.widget-basevacuum-{{id}} .aux-icon-right {
+  text-align: right;
+  right: 12px;
+}
+
+.widget-basevacuum-{{id}} .divider {
+  height: 1px;
+  background-color: #666;
+  margin: 8px;
+}
+
+.widget-basevacuum-{{id}} .top-line {
+  margin-top: 90px;
+}
+
+.widget-basevacuum-{{id}} .top-line i {
+  margin-right: 4px;
+}
+
+.widget-basevacuum-{{id}} .bottom-line-right {
+  display: inline-block;
+  width: 48%;
+}
+
+.widget-basevacuum-{{id}} .bottom-line-left {
+  display: inline-block;
+}
+
+.widget-basevacuum-{{id}} .unit {
+  opacity: 0.5;
+}
+
+.widget-basevacuum-{{id}} i.bin_full {
+  color: #ea0404;
+}
+
+.widget-basevacuum-{{id}} i.bin_empty {
+  opacity: 0.25;
+}
+
+.widget-basevacuum-{{id}} .battery i {
+  color: #5BC236;
+}
+
+.widget-basevacuum-{{id}} i.fan-eco {
+  color: #5BC236;
+  opacity: 0.75;
+}
+
+.widget-basevacuum-{{id}} i.fan-automatic {
+  color: #8ad0ce;
+  opacity: 0.75;
+}
+
+.widget-basevacuum-{{id}} i.fan-performance {
+  color: #ffe963;
+  opacity: 0.75;
+}
