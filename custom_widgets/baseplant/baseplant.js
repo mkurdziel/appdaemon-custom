@@ -105,7 +105,7 @@ function baseplant(widget_id, url, skin, parameters)
 
     function set_value(self, state)
     {
-        console.log(state);
+        //console.log(state);
 
         var units = state.attributes['unit_of_measurement_dict'];
 

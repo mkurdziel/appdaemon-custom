@@ -2,6 +2,8 @@ widget_type: basevacuum
 
 entity: ""
 entity_to_sub_entity_attribute: {{entity_to_sub_entity_attribute}}
+state_active: "on"
+state_inactive: "off"
 
 fields:
   title: {{title}} 
@@ -15,8 +17,6 @@ fields:
   bin_icon: ""
   fan_speed: ""
   fan_icon: ""
-  state_active: "on"
-  state_inactive: "off"
 
 css: []
 icons: []

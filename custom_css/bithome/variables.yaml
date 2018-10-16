@@ -29,6 +29,7 @@
 
 head_includes:
  - <script src="custom_css/bithome/bithome.js"></script>
+ - <link href="//cdn.materialdesignicons.com/2.8.94/css/materialdesignicons.min.css" rel="stylesheet">
 
 #
 # Custom body includes - should be a YAML List, e.g.:

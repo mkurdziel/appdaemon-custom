@@ -66,7 +66,6 @@ function baseweathermini(widget_id, url, skin, parameters)
 
     function set_value(self, state)
     {
-      console.log(state);
       if (state.entity_id == self.parameters.temperature) {
             self.set_field(self, "temperature", parseFloat(state.state).toFixed(0));
             self.set_field(self, "temperature_unit", state.attributes.unit_of_measurement);

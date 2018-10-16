@@ -119,8 +119,9 @@ function basevacuum(widget_id, url, skin, parameters)
 
     function OnButtonClick(self)
     {
-        if (self.value == self.parameters.state_active)
+        if (self.state == self.parameters.state_active)
         {
+            console.log('Vacuum: return to base');
             args = {
               service: 'vacuum/return_to_base',
               entity_id: self.entity
@@ -128,14 +129,16 @@ function basevacuum(widget_id, url, skin, parameters)
         }
         else
         {
+            console.log('Vacuum: start');
             args = {
-              service: 'vacuum/start',
+              service: 'vacuum/turn_on',
               entity_id: self.entity
             };
         }
-        toggle(self);
 
         self.call_service(self, args);
+
+        toggle(self);
     }
     
     function toggle(self)
@@ -201,7 +204,6 @@ function basevacuum(widget_id, url, skin, parameters)
     }
 
   function set_view(self, value) {
-      
       if (value == 'on')
       {
           self.set_field(self, "icon", 'icon-on mdi mdi-robot-vacuum');
