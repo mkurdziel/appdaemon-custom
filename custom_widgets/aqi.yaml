@@ -1,0 +1,27 @@
+widget_type: baseaqi
+entity: "{{entity}}"
+fields:
+  title: "{{title}}"
+  title2: "{{title2}}"
+  icon_class: ""
+  state_text: ""
+  value_text: ""
+  unit: ""
+  icon_1_style: ""
+  icon_2_style: ""
+  icon_3_style: ""
+  icon_4_style: ""
+  icon_5_style: ""
+  icon_6_style: ""
+  state_text_style: ""
+  state_text_class: ""
+  value_text_style: ""
+  widget_style: ""
+css: []
+icons: []
+static_css:
+  title_style: $icon_title_style
+  title2_style: $icon_title2_style
+  state_text_style: ""
+  widget_style: $icon_widget_style
+static_icons: []
