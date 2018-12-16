@@ -1,20 +1,11 @@
-widget_type: baseuvindex
+widget_type: baseallergyindex
 
-current_uv_index: ""
-max_uv_index: ""
-protection_window: ""
-safe_exposure_time: ""
+allergy_index: ""
 
 fields:
   title: {{title}} 
   icon_class: ""
-  lock_icon: ""
-  current_uv_index: ""
-  max_uv_index: ""
-  protection_window: ""
-  safe_exposure_time: ""
-  current_uv_style: ""
-  max_uv_style: ""
+  allergy_index: ""
 
 css: []
 icons: []

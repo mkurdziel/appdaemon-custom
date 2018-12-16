@@ -1,7 +1,11 @@
 <div data-bind="attr: {class: widget_class}">
   <h1 class="title" data-bind="text: title, attr: {style: title_style}"></h1>
-  <div data-bind="attr: {style: main_style}">
-      <!--<div class="icon"><i data-bind="attr: {class: icon}" aria-hidden="true"></i></div>-->
-      <div class="value" data-bind="text: value, attr: {style: value_style}"></div>
+  <div class="icon" data-bind="attr: {style: icon_style}">
+    <i class="fab fa-pagelines"></i>
+  </div>
+
+  <div class="value-text">
+      <span class="allergy-level" data-bind="text: allergy_level"></span>&nbsp;
+      <span class="allergy-index" data-bind="text: allergy_index"></span>        
   </div>
 </div>

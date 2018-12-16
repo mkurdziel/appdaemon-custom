@@ -1,16 +1,12 @@
 widget_type: baseallergyindex
 
-entity: {{entity}}
-entity_to_sub_entity_attribute: {{entity_to_sub_entity_attribute}}
-sub_entity: {{sub_entity}}
-sub_entity_to_entity_attribute: {{sub_entity_to_entity_attribute}}
+allergy_index: ""
 
 fields:
   title: {{title}} 
-  title2: {{title2}}
-  value: ""
-  icon: ""
-  state_text: ""
+  icon_style: ""
+  allergy_index: ""
+  allergy_level: ""
 
 css: []
 icons: []
