@@ -1,0 +1,23 @@
+<div data-bind="attr: {class: widget_class}">
+  <h1 class="title" data-bind="text: title, attr: {style: title_style}"></h1>
+  <div data-bind="attr: {style: main_style}">
+    <div class="aux-icon aux-icon-left min">
+      <span class="aux-value">
+        <i class="mdi mdi-thermometer" aria-hidden="true"></i>
+        <span class="aux-value-text" data-bind="text: temperature_min"></span>
+        <span class="aux-value-unit unit" data-bind="text: temperature_min_unit"></span>
+      </span>
+    </div>
+    <div class="aux-icon aux-icon-right max">
+      <span class="aux-value">
+        <i class="mdi mdi-thermometer-lines" aria-hidden="true"></i>
+        <span class="aux-value-text" data-bind="text: temperature_max"></span>
+        <span class="aux-value-unit unit" data-bind="text: temperature_max_unit"></span>
+      </span>
+    </div>
+    <div class="value">
+        <span class="value-text" data-bind="text: temperature"></span>
+        <span class="value-unit unit" data-bind="text: temperature_unit"></span>
+    </div>
+  </div>
+</div>

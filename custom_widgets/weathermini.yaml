@@ -1,0 +1,28 @@
+widget_type: baseweathermini
+
+temperature: ""
+temperature_max: ""
+temperature_min: ""
+
+fields:
+  title: {{title}} 
+  title2: {{title2}}
+  value: ""
+  unit: ""
+  temperature: ""
+  temperature_unit: ""
+  temperature_max: ""
+  temperature_max_unit: ""
+  temperature_min: ""
+  temperature_min_unit: ""
+
+css: []
+icons: []
+static_css:
+  title_style: "color: #777;"
+  main_style: $label_text_style
+  sub_style: "color: #777;"
+  value_style: "color: #777;"
+  widget_style: $label_widget_style
+  widget_class: ""
+static_icons: []

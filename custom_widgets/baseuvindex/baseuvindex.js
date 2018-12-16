@@ -97,7 +97,11 @@ function baseuvindex(widget_id, url, skin, parameters)
             self.set_field(self, "max_uv_index", parseFloat(state.state).toFixed(0));
             self.set_field(self, "max_uv_style", getUvStyle(parseFloat(state.state)));
        } else if (state.entity_id == self.parameters.safe_exposure_time) {
-            self.set_field(self, "safe_exposure_time", parseFloat(state.state).toFixed(0));
+            if (state.state == 'unknown') {
+              self.set_field(self, "safe_exposure_time", "∞");
+            } else {
+              self.set_field(self, "safe_exposure_time", parseFloat(state.state).toFixed(0));
+            }
        } else if (state.entity_id == self.parameters.protection_window) {
           if (state.state == 'off') {
             self.set_field(self, "icon_class", 'icon icon-inactive');

@@ -1,0 +1,117 @@
+.widget-baseplant-{{id}} {
+  padding-top: 10px;
+  vertical-align: top;
+	position: relative;
+}
+
+.widget-baseplant-{{id}} h1 {
+  margin-bottom: 16px;
+}
+
+.widget-baseplant-{{id}} .alert .title,
+.widget-baseplant-{{id}} .alert .icon,
+.widget-baseplant-{{id}} .alert .value {
+  color: #fff !important;
+}
+
+.widget-baseplant-{{id}} .title {
+  color: #777;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #111;
+}
+
+.widget-baseplant-{{id}} .aux-icon i {
+  font-size: 30px;
+}
+
+.widget-baseplant-{{id}} .aux-value {
+  word-spacing: -4px;
+}
+.widget-baseplant-{{id}} .aux-value-text {
+  font-size: 16px;
+}
+
+.widget-baseplant-{{id}} .aux-value-unit {
+  font-size: 8px;
+}
+
+.widget-baseplant-{{id}} .aux-icon {
+  font-size: 28px;
+  line-height: 20px;
+	position: absolute;
+	top: 60px;
+  width: 100%;
+}
+
+.widget-baseplant-{{id}} .icon {
+	position: absolute;
+	top: 40px;
+	width: 100%;
+  font-size: 65px;
+  text-align: center;
+  color: #777;
+  opacity: 0.75;
+}
+
+.widget-baseplant-{{id}} .aux-icon-left {
+  text-align: left;
+  left: 8px;
+}
+
+.widget-baseplant-{{id}} .aux-icon-left .aux-value {
+  padding-left: 8px;
+}
+
+.widget-baseplant-{{id}} .aux-icon-right {
+  text-align: right;
+  right: 8px;
+}
+
+.widget-baseplant-{{id}} .divider {
+  height: 1px;
+  background-color: #666;
+  margin: 8px;
+}
+
+.widget-baseplant-{{id}} .top-line {
+  margin-top: 90px;
+}
+
+.widget-baseplant-{{id}} .top-line i {
+  margin-right: 4px;
+}
+
+.widget-baseplant-{{id}} .bottom-line-right {
+  display: inline-block;
+  width: 48%;
+}
+
+.widget-baseplant-{{id}} .bottom-line-left {
+  display: inline-block;
+  width: 48%;
+}
+
+.widget-baseplant-{{id}} .unit {
+  opacity: 0.5;
+}
+
+.widget-baseplant-{{id}} .conductivity i {
+  color: #d8842f;
+}
+
+.widget-baseplant-{{id}} .temperature i {
+  color: #ff6d6d;
+}
+
+.widget-baseplant-{{id}} .battery i {
+  color: #5BC236;
+}
+
+.widget-baseplant-{{id}} .moisture i {
+  color: #8ad0ce;
+}
+
+.widget-baseplant-{{id}} .brightness i {
+  color: #ffe963;
+}

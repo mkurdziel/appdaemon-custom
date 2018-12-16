@@ -1,0 +1,31 @@
+<div data-bind="attr: {class: widget_class}">
+  <h1 class="title" data-bind="text: title, attr: {style: title_style}"></h1>
+
+  <div data-bind="attr: {style: main_style}">
+    <div class="aux-icon aux-icon-left" id="climateButton">
+      <i data-bind="attr: {class: fan_icon}" aria-hidden="true"></i>
+    </div>
+
+    <div class="aux-icon aux-icon-right brightness">
+      <i data-bind="attr: {class: bin_icon}" aria-hidden="true"></i>
+      <div class="aux-value">
+        <span class="aux-value-text" data-bind="text: bin_status"></span>
+      </div>
+    </div>
+
+    <div class="icon">
+      <i data-bind="attr: {class: icon}" aria-hidden="true"></i>
+    </div>
+    <div class="top-line conductivity">
+      <span class="top-line-value-text" data-bind="text: status"></span>
+    </div>
+    <div class="divider">&nbsp;</div>
+    <div class="bottom-line">
+      <div class="bottom-line-left battery">
+        <i class="fa fa-battery" aria-hidden="true"></i>
+        <span class="top-line-value-text" data-bind="text: battery"></span>
+        <span class="top-line-value-unit unit">%</span>
+      </div>
+    </div>
+  </div>
+</div>

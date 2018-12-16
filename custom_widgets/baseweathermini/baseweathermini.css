@@ -1,0 +1,98 @@
+.widget-baseweathermini-{{id}} {
+  padding-top: 10px;
+  vertical-align: top;
+	position: relative;
+}
+
+.widget-baseweathermini-{{id}} h1 {
+  margin-bottom: 16px;
+}
+
+.widget-baseweathermini-{{id}} .alert .title,
+.widget-baseweathermini-{{id}} .alert .icon,
+.widget-baseweathermini-{{id}} .alert .value {
+  color: #fff !important;
+}
+
+.widget-baseweathermini-{{id}} .title {
+  color: #777;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #111;
+}
+
+.widget-baseweathermini-{{id}} .aux-icon i {
+  font-size: 30px;
+  word-spacing: -10px;
+}
+
+.widget-baseweathermini-{{id}} .aux-value {
+  display: inline-block;
+  width: 100px;
+}
+
+.widget-baseweathermini-{{id}} .aux-value-text {
+  font-size: 20px;
+  color: #777;
+}
+
+.widget-baseweathermini-{{id}} .aux-value-unit {
+  font-size: 10px;
+}
+
+.widget-baseweathermini-{{id}} .aux-icon {
+  font-size: 28px;
+	position: absolute;
+	top: 70px;
+  width: 100px;
+  word-spacing: -8px;
+}
+
+.widget-baseweathermini-{{id}} .value {
+	position: absolute;
+	top: 4px;
+	width: 100%;
+  text-align: center;
+  color: #777;
+  opacity: 0.75;
+  padding-left: 14px;
+}
+
+.widget-baseweathermini-{{id}} .value-text {
+  font-size: 65px;
+}
+
+.widget-baseweathermini-{{id}} .value-unit {
+  font-size: 24px;
+  vertical-align: top;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.widget-baseweathermini-{{id}} .aux-icon-left {
+  text-align: left;
+  left: 8px;
+}
+
+.widget-baseweathermini-{{id}} .aux-icon-left .aux-value {
+  padding-left: 0;
+}
+
+.widget-baseweathermini-{{id}} .aux-icon-right {
+  text-align: right;
+  right: 8px;
+}
+
+.widget-baseweathermini-{{id}} .unit {
+  opacity: 0.25;
+}
+
+.widget-baseweathermini-{{id}} .max i {
+  color: #d8842f;
+  opacity: 0.25;
+}
+
+.widget-baseweathermini-{{id}} .min i {
+  color: #8ad0ce;
+  opacity: 0.25;
+}
