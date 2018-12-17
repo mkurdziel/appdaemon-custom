@@ -26,7 +26,12 @@
     position: absolute;
     top: 50px;
     width: 100%;
-    font-size: 500%;
+}
+
+.widget-baseallergyindex-{{id}} .icon svg {
+    width: 50%; 
+    height: 50%; 
+    fill: #777;
 }
 
 .widget-baseallergyindex-{{id}} .toggle-area {

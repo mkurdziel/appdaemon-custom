@@ -5,6 +5,7 @@ allergy_index: ""
 fields:
   title: {{title}} 
   icon_style: ""
+  value_style: ""
   allergy_index: ""
   allergy_level: ""
 

@@ -96,7 +96,7 @@ function baseallergyindex(widget_id, url, skin, parameters)
       }
 
       if (color) {
-        return 'color: ' + color + ' !important;';
+        return 'fill: ' + color + ' !important;';
       }
       return "";
     }
