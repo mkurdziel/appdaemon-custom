@@ -8,21 +8,16 @@
     position: absolute;
     top: 28px;
     width: 100%;
-    color: #333;
+    color: #555;
 }
 
-.widget-baseaqi-{{id}} .state_text {
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-    font-weight: bold;
-    font-size: 21px;
-}
-
-.widget-baseaqi-{{id}} .value_text {
-    position: absolute;
-    bottom: 50px;
-    right: 20px;
+.widget-baseaqi-{{id}} .value-text {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  font-size: 150%;
+  font-weight: bold;
+  color: #777
 }
 
 .widget-baseaqi-{{id}} .icon {
@@ -55,8 +50,10 @@
 
 .widget-baseaqi-{{id}} #face-1 {
   stroke-width: 1px;
-  stroke: #718b3a;
-  fill: #718b3a;
+  stroke: #333;
+  fill: #333;
+  /*stroke: #718b3a;
+  fill: #718b3a;*/
 }
 
 .widget-baseaqi-{{id}} .state-2 {

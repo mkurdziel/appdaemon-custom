@@ -76,7 +76,6 @@ function baseaqi(widget_id, url, skin, parameters)
 
         var state;
         var stateText;
-        var stateTextClass = "state_text ";
         var icon;
 
         self.set_field(self, 'icon_1_style', null);
@@ -89,32 +88,26 @@ function baseaqi(widget_id, url, skin, parameters)
         if (aqi <= 50) {
           icon = 'icon_1_style';
           stateText = 'Good';
-          stateTextClass += 'state-1';
           state = 1;
         } else if (aqi > 50 && aqi <= 100) {
           icon = 'icon_2_style';
           stateText = 'Moderate';
-          stateTextClass += 'state-2';
           state = 2;
         } else if (aqi > 100 && aqi <= 150) {
           icon = 'icon_3_style';
           stateText = 'Sensitive';
-          stateTextClass += 'state-3';
           state = 3;
         } else if (aqi > 150 && aqi <= 200) {
           icon = 'icon_4_style';
           stateText = 'Unhealthy';
-          stateTextClass += 'state-4';
           state = 4;
         } else if (aqi > 200 && aqi <= 300) {
           icon = 'icon_5_style';
           stateText = 'Very Unhealthy';
-          stateTextClass += 'state-5';
           state = 5;
         } else {
           icon = 'icon_6_style';
           stateText = 'Dangerous';
-          stateTextClass += 'state-6';
           state = 6;
         }
 
@@ -123,8 +116,6 @@ function baseaqi(widget_id, url, skin, parameters)
           self.set_field(self, "widget_style", 'background: ' + backgrounds[state] + ';');
         }
         self.set_field(self, icon, 'display: inline !important;');
-        self.set_field(self, "state_text", stateText);
-        self.set_field(self, "state_text_class", stateTextClass);
-        self.set_field(self, "value_text", aqi);
+        self.set_field(self, "value_text", stateText);
     }
 }
