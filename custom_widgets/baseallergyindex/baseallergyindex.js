@@ -104,9 +104,9 @@ function baseallergyindex(widget_id, url, skin, parameters)
     function set_view(self, state)
     {
        if (state.entity_id == self.parameters.allergy_index) {
-          let index = parseFloat(state.state).toFixed(1); 
-          let iconStyle = getIndexColor(index);
-          let level = getLevel(index);
+          var index = parseFloat(state.state).toFixed(1); 
+          var iconStyle = getIndexColor(index);
+          var level = getLevel(index);
           self.set_field(self, "allergy_index", index);
           self.set_field(self, "allergy_level", level);
           self.set_field(self, "icon_style", iconStyle);
