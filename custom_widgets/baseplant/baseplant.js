@@ -105,15 +105,13 @@ function baseplant(widget_id, url, skin, parameters)
 
     function set_value(self, state)
     {
-        //console.log(state);
-
         var units = state.attributes['unit_of_measurement_dict'];
 
         if (state.attributes['friendly_name']) {
             self.set_field(self, "title", state.attributes['friendly_name']);
         }
 
-        if (state.attributes['moisture']) {
+        if (state.attributes['moisture'] != undefined) {
             self.set_field(self, "moisture", state.attributes['moisture']);
             self.set_field(self, "moisture_unit", units['moisture']);
         }
@@ -123,7 +121,7 @@ function baseplant(widget_id, url, skin, parameters)
             self.set_field(self, "brightness_unit", units['brightness']);
         }
 
-        if (state.attributes['conductivity']) {
+        if (state.attributes['conductivity'] != undefined) {
             self.set_field(self, "conductivity", state.attributes['conductivity']);
             self.set_field(self, "conductivity_unit", units['conductivity']);
         }
