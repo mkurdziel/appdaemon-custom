@@ -24,7 +24,7 @@ day_5_high_temperature: ""
 day_5_low_temperature: ""
 day_5_name: ""
 fields:
-  title: {{title}} 
+  title: $title
   day_1_icon: ""
   day_1_high_temperature: ""
   day_1_low_temperature: ""

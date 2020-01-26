@@ -5,8 +5,8 @@ temperature_max: ""
 temperature_min: ""
 
 fields:
-  title: {{title}} 
-  title2: {{title2}}
+  title: $title
+  title2: $title2
   value: ""
   unit: ""
   temperature: ""

@@ -1,7 +1,7 @@
 widget_type: basegiantsgame
 
 fields:
-  title: {{title}} 
+  title: $title
 
   game_icon: ""
   game_time: ""

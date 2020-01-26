@@ -9,7 +9,7 @@ today_humidity: ""
 today_wind_speed: ""
 
 fields:
-  title: {{title}} 
+  title: $title
 
   today_icon: ""
   today_temperature: ""

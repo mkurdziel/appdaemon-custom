@@ -15,7 +15,7 @@ function baseweatherforcast(widget_id, url, skin, parameters)
       "cloudy": 'mdi mdi-weather-cloudy',
       "clear-day": 'mdi mdi-weather-sunny',
       "clear-night": 'mdi mdi-weather-night',
-      "partly-cloudy-day": 'mdi mdi-weather-partlycloudy',
+      "partly-cloudy-day": 'mdi mdi-weather-partly-cloudy',
       "partly-cloudy-night": 'mdi mdi-weather-cloudy'
     };
 

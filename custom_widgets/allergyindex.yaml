@@ -3,7 +3,7 @@ widget_type: baseallergyindex
 allergy_index: ""
 
 fields:
-  title: {{title}} 
+  title: $title
   icon_style: ""
   value_style: ""
   allergy_index: ""
